@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system>
+    <protection_domain name="hello-world" priority="254">
+        <program_image path="target/aarch64-unknown-none/debug/hello-world" />
+    </protection_domain>
+</system>
