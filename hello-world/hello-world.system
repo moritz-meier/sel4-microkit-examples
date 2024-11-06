@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <system>
-    <protection_domain name="hello-world" priority="254">
-        <program_image path="target/aarch64-unknown-none/debug/hello-world" />
+    <protection_domain name="foo" priority="254">
+        <program_image path="../target/aarch64-unknown-none/debug/foo" />
+    </protection_domain>
+
+        <protection_domain name="bar" priority="254">
+        <program_image path="../target/aarch64-unknown-none/debug/bar" />
     </protection_domain>
 </system>
